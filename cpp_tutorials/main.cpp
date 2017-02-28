@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	setlocale(0, "");
+	setlocale(LC_ALL, "");
 	int a, b;
 	cout << "¬ведите первое число: ";
 	cin >> a;
