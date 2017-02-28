@@ -4,7 +4,15 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello world!" << endl;
+	setlocale(0, "");
+	int a, b;
+	cout << "¬ведите первое число: ";
+	cin >> a;
+	cout << "¬ведите второе число: ";
+	cin >> b;
+	int c = a + b;
+	cout << "—умма чисел: " << c;
+	cin >> a;
 	return 0;
 }
 
